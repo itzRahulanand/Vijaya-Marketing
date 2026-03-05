@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijaya Marketing | FMCG Goods Wholesaler</title>
+    <!-- Dynamic Language & UI Scripts -->
+    <!-- Scripts are loaded at the end of the body for performance -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Link to external premium styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container animate-fade-in">
+            <a href="#" class="logo">
+                Vijaya <span>Marketing</span>
+            </a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links">
+                <a href="#about" data-i18n="nav_about">About Us</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <path
+                            d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4">
+                        </path>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <a href="#" id="lang-toggle" class="lang-switch" data-i18n="lang_switch">മലയാളം</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content animate-fade-up">
+            <h1 data-i18n="hero_title">HUL & Haleon <br>Wholesale Supplier</h1>
+            <p data-i18n="hero_desc">Authorized wholesale supplier of Hindustan Unilever (HUL) and Haleon products to
+                businesses. Reliable stock of premium FMCG brands, competitive prices, and timely delivery.</p>
+            <div style="margin-top: 2rem;">
+                <a href="#contact" class="btn" data-i18n="hero_btn">Call Us Now: 094471 20008</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-container">
+        <div class="reveal">
+            <h2 class="section-title" data-i18n="about_title">Why Choose Us?</h2>
+            <p class="section-subtitle" data-i18n="about_subtitle">We are dedicated to providing the best wholesale
+                experience with unmatched reliability and value.</p>
+
+            <div class="features">
+                <div class="feature-card delay-100">
+                    <div class="feature-icon-wrapper">
+                        <!-- Icon: Inventory/Boxes -->
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="feature1_title">Vast Inventory</h3>
+                    <p data-i18n="feature1_desc">We stock a comprehensive range of FMCG products to meet the diverse
+                        needs of retail stores, supermarkets, and businesses.</p>
+                </div>
+                <div class="feature-card delay-200">
+                    <div class="feature-icon-wrapper">
+                        <!-- Icon: Currency/Price -->
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="feature2_title">Wholesale Pricing</h3>
+                    <p data-i18n="feature2_desc">Maximize your margins with our highly competitive wholesale rates and
+                        lucrative bulk purchase discounts.</p>
+                </div>
+                <div class="feature-card delay-300">
+                    <div class="feature-icon-wrapper">
+                        <!-- Icon: Truck/Delivery -->
+                        <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="feature3_title">Reliable Supply</h3>
+                    <p data-i18n="feature3_desc">Consistent availability and a streamlined distribution network ensure
+                        your shelves are never empty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section reveal">
+        <h2 class="section-title" data-i18n="contact_title">Visit or Contact Us</h2>
+        <p class="section-subtitle" data-i18n="contact_subtitle">We are here to help you grow your business. Reach out
+            to us today.</p>
+
+        <div class="contact-grid">
+            <div class="contact-info-wrapper delay-100">
+                <div class="contact-info">
+                    <h3 data-i18n="contact_getintouch">Get in Touch</h3>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <strong data-i18n="contact_address_label">Address</strong>
+                            <p data-i18n="contact_address">Parambil Bazar, Kozhikode, Kuruvattoor, Kerala 673012</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <strong data-i18n="contact_phone_label">Phone</strong>
+                            <a href="tel:+919447120008">094471 20008</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-text">
+                            <strong data-i18n="contact_hours_label">Hours</strong>
+                            <p data-i18n="contact_hours">Mon - Sat: 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">⭐</div>
+                        <div class="contact-text">
+                            <strong data-i18n="contact_rating_label">Rating</strong>
+                            <p data-i18n="contact_rating"><span class="rating-stars">★★★★☆</span> (3.9 / 33 reviews)</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 2.5rem;">
+                        <a href="tel:+919447120008" class="btn btn-primary" data-i18n="contact_btn">Make an Order
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-embed delay-200" aria-label="Google Map showing our location">
+                <iframe title="Vijaya Marketing Location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps?q=Vijaya%20Marketing%2C%20Kozhikode&ll=11.3082222,75.8243611&z=18&output=embed">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Vijaya <span>Marketing</span></div>
+            <p style="color: rgba(255,255,255,0.8); max-width: 400px; margin: 1rem 0 2rem;" data-i18n="footer_desc">Your
+                trusted wholesale partner for fast-moving consumer goods in Kerala.</p>
+
+            <div class="footer-bottom">
+                <p data-i18n="footer_rights">&copy; 2026 Vijaya Marketing. All Rights Reserved.</p>
+                <p data-i18n="footer_design">Designed by Rahul</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dynamic JS Files -->
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

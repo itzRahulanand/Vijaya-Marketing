@@ -94,34 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* -------------------------------------------------------------------------- */
-    /* 5. Advanced Interactivity (Custom Premium Cursor)                          */
-    /* -------------------------------------------------------------------------- */
-    const cursor = document.createElement('div');
-    cursor.classList.add('custom-cursor');
-    document.body.appendChild(cursor);
-
-    let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
-
-    document.addEventListener('mousemove', (e) => {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-
-        // Immediate update for the tiny dot
-        cursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-    });
-
-    // Hover state over interactive elements (dot expansion)
-    const interactiveElements = document.querySelectorAll('a, button, .feature-card, .contact-info-wrapper');
-    interactiveElements.forEach(el => {
-        el.addEventListener('mouseenter', () => {
-            cursor.classList.add('active');
-        });
-        el.addEventListener('mouseleave', () => {
-            cursor.classList.remove('active');
-        });
-    });
-
-    /* -------------------------------------------------------------------------- */
     /* 6. Dynamic 3D Tilt Effect for Feature Cards                                */
     /* -------------------------------------------------------------------------- */
     const cards = document.querySelectorAll('.feature-card');
